@@ -1,0 +1,28 @@
+Análise Exploratória de Dados (EDA) Aplicada ao Mercado de Criptomoedas
+Descrição do Projeto
+Este projeto realiza uma Análise Exploratória de Dados (EDA) focada no mercado de criptomoedas, mais especificamente no Bitcoin. Através do uso da biblioteca pandas para carregamento e manipulação de dados, e matplotlib para visualização, buscamos explorar e entender o comportamento do preço de fechamento e volume de negociação do Bitcoin ao longo do tempo.
+
+Etapas do Projeto
+Carregamento de Dados
+
+Utilizamos a biblioteca pandas para carregar dados de um arquivo CSV armazenado no Google Drive. Certifique-se de fornecer o caminho correto para o arquivo para evitar erros.
+Análise Exploratória de Dados (EDA)
+
+Visualizamos as primeiras linhas do DataFrame para entender a estrutura dos dados.
+Obtivemos informações detalhadas sobre o DataFrame, incluindo tipos de dados e presença de dados ausentes.
+Pré-processamento dos Dados
+
+Convertimos a coluna 'Data' para o tipo datetime para assegurar que os dados temporais sejam corretamente interpretados.
+Visualização dos Dados
+
+Variação do Preço de Fechamento ao Longo do Tempo: Criamos um gráfico de linha para mostrar a variação do preço de fechamento do Bitcoin ao longo do tempo.
+Volume de Negociação ao Longo do Tempo: Geramos um gráfico de linha para ilustrar a variação do volume de negociação do Bitcoin ao longo do tempo.
+Relatório
+
+Compilamos um relatório detalhado abordando as análises realizadas e os insights obtidos a partir das visualizações.
+
+Contribuição
+Sinta-se à vontade para contribuir com melhorias ou sugestões. Envie pull requests ou abra issues se encontrar algum problema ou tiver uma ideia para aprimorar o projeto.
+
+Licença
+Este projeto está licenciado sob a MIT License.
